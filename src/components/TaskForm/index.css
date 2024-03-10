@@ -1,0 +1,44 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-form-container {
+  border: solid 1px black;
+  background-color: #45475a;
+  min-height: 400px;
+  min-width: 400px;
+  max-height: 800px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.main-heading {
+  color: white;
+  margin-left: 120px;
+}
+
+.input-box {
+  background-color: white !important;
+  width: 300px;
+}
+
+.box {
+  border-radius: 7px !important;
+  height: 30px;
+}
+
+.input-button {
+  background-color: #6273a4;
+  cursor: pointer;
+  color: white;
+  width: 80px;
+}
+
+.un-ordered-list {
+  list-style-type: none;
+  padding-left: 0px !important;
+}
